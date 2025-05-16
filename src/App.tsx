@@ -16,7 +16,7 @@ function App() {
       return;
     }
 
-    const BASE_URL = "https://7f1f-54-208-204-129.ngrok-free.app";
+    const BASE_URL = "https://7215-54-208-204-129.ngrok-free.app/";
 
     try {
       setIsLoading(true);
