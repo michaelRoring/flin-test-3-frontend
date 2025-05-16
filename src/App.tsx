@@ -16,7 +16,7 @@ function App() {
       return;
     }
 
-    const BASE_URL = "http://54.208.204.129:3000";
+    const BASE_URL = "https://7f1f-54-208-204-129.ngrok-free.app";
 
     try {
       setIsLoading(true);
@@ -74,7 +74,7 @@ function App() {
             className="border-2 border-gray-300 rounded-md mx-4 p-2"
             ref={loanType}
           >
-            <option disabled selected value="">
+            <option disabled value="">
               Select loan type
             </option>
             <option value="Home loan">Home loan</option>
